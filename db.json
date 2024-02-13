@@ -11,7 +11,7 @@ echo: {
       dark: '#2B0134',
     },
     neutral: {
-      black: '#000000', // new
+      black: '#000000',
       base: '#9A9A94',
       white: '#fff',
       dark: '#73736E',
@@ -27,28 +27,28 @@ echo: {
     },
     interaction: {
       primary: {
-        inactive: '#7000FF', // new
+        inactive: '#7000FF',
         hover: '#3E008D',
         active: '#2C0064',
-        visited: '#8A4897', // new
-        focus: '#88D525', // new
-        disabled: '#B9B9B2', // new moved
-        disabledLight: '#DCDCDC', // new
+        visited: '#8A4897',
+        focus: '#88D525',
+        disabled: '#B9B9B2',
+        disabledLight: '#DCDCDC',
       },
       onPrimary: {
         focus: '#5A0AC0',
       },
       inverted: {
-        inactive: '#FFFFFF', // new
-        hover: '#FFFFFF', // new
-        active: '#CFCFC6', // new
-        visited: '#E1DCFF', // new
-        focus: '#88D525', // new
-        disabled: '#B9B9B2', // new moved
-        disabledLight: '#DCDCDC', // new
+        inactive: '#FFFFFF',
+        hover: '#FFFFFF',
+        active: '#CFCFC6',
+        visited: '#E1DCFF',
+        focus: '#88D525',
+        disabled: '#B9B9B2',
+        disabledLight: '#DCDCDC',
       },
       onInverted: {
-        focus: '#5A0AC0', // new
+        focus: '#5A0AC0',
       },
     },
     error: {
@@ -58,7 +58,7 @@ echo: {
     },
     success: {
       dark: '#1B7964',
-      base: '#37bea0', // new
+      base: '#37bea0',
       light: '#D2F5E1',
     },
     warning: {
@@ -68,7 +68,7 @@ echo: {
     },
     background: {
       lightIndigo: '#E1DCFF',
-      beige: '#F5F5EB', // web safe is #ffffff (white) ??
+      beige: '#F5F5EB',
       lightBeige: '#d2f5e1',
     },
   }
