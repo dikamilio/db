@@ -1,11 +1,75 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+echo: {
+    brand: {
+      base: '#7000ff',
+      light: '#8C7DFF',
+      dark: '#5a0ac0',
+    },
+    secondary: {
+      base: '#4B005A',
+      light: '#8A4897',
+      dark: '#2B0134',
+    },
+    neutral: {
+      black: '#000000', // new
+      base: '#9A9A94',
+      white: '#fff',
+      dark: '#73736E',
+      darker: '#4a4a47',
+      darkest: '#1D1D1B',
+      light: '#B9B9B2',
+      lighter: '#CFCFC6',
+      lightest: '#F5F5EB',
+    },
+    additional: {
+      color: '#E1DCFF',
+      neutral: '#DCDCDC',
+    },
+    interaction: {
+      primary: {
+        inactive: '#7000FF', // new
+        hover: '#3E008D',
+        active: '#2C0064',
+        visited: '#8A4897', // new
+        focus: '#88D525', // new
+        disabled: '#B9B9B2', // new moved
+        disabledLight: '#DCDCDC', // new
+      },
+      onPrimary: {
+        focus: '#5A0AC0',
+      },
+      inverted: {
+        inactive: '#FFFFFF', // new
+        hover: '#FFFFFF', // new
+        active: '#CFCFC6', // new
+        visited: '#E1DCFF', // new
+        focus: '#88D525', // new
+        disabled: '#B9B9B2', // new moved
+        disabledLight: '#DCDCDC', // new
+      },
+      onInverted: {
+        focus: '#5A0AC0', // new
+      },
+    },
+    error: {
+      base: '#F03750',
+      light: '#FFCDC3',
+      dark: '#981B2C',
+    },
+    success: {
+      dark: '#1B7964',
+      base: '#37bea0', // new
+      light: '#D2F5E1',
+    },
+    warning: {
+      dark: '#8E540F',
+      light: '#FADCAA',
+      base: '#FFAF50',
+    },
+    background: {
+      lightIndigo: '#E1DCFF',
+      beige: '#F5F5EB', // web safe is #ffffff (white) ??
+      lightBeige: '#d2f5e1',
+    },
   }
 }
